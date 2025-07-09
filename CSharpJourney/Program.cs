@@ -2,6 +2,10 @@
 using CSharpJourney.Inheritance;
 using CSharpJourney.Arrays;
 using CSharpJourney.Copy_Constructor;
+using CSharpJourney.Static_Keyword;
+using CSharpJourney.Value___Refernce;
+using CSharpJourney.Method_Hiding;
+using CSharpJourney.Abstraction;
 class Program
 {
     public static void Main()
@@ -22,9 +26,16 @@ class Program
         //Console.WriteLine($"Sum = {c}");
 
         //multidimension.Run();
-        ZaggedArray.Run();
+        //ZaggedArray.Run();
 
-        copy_constructor.Run();
+        //copy_constructor.Run();
 
+        //private_constructor.Run();
+        //StaticConstructor.Run();
+        //ValAndRef.Run();
+        //Method_Hiding.Run();
+
+        //AbstractionExample.Run();
+        AbstractClass.Run();
     }
 }
